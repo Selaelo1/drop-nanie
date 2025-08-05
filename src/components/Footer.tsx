@@ -1,5 +1,5 @@
 import React from "react";
-import { Instagram, Twitter, Facebook } from "lucide-react";
+import { Instagram, Facebook, Mail } from "lucide-react";
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -35,13 +35,7 @@ const Footer: React.FC = () => {
               >
                 <Instagram className="w-6 h-6 text-cream-200 group-hover:text-white transition-colors" />
               </a>
-              <a
-                href="#"
-                className="w-12 h-12 bg-street-brown-700 hover:bg-street-blue-500 rounded-full flex items-center justify-center transition-all duration-300 group shadow-lg hover:shadow-street-blue-500/20"
-                aria-label="Twitter"
-              >
-                <Twitter className="w-6 h-6 text-cream-200 group-hover:text-white transition-colors" />
-              </a>
+
               <a
                 href="https://www.facebook.com/share/16jZjwrD3u/?mibextid=wwXIfr"
                 className="w-12 h-12 bg-street-brown-700 hover:bg-street-blue-500 rounded-full flex items-center justify-center transition-all duration-300 group shadow-lg hover:shadow-street-blue-500/20"
@@ -49,9 +43,26 @@ const Footer: React.FC = () => {
               >
                 <Facebook className="w-6 h-6 text-cream-200 group-hover:text-white transition-colors" />
               </a>
+
+              <a
+                href="mailto:info@dropnanie.co.za"
+                className="w-12 h-12 bg-street-brown-700 hover:bg-street-blue-500 rounded-full flex items-center justify-center transition-all duration-300 group shadow-lg hover:shadow-street-blue-500/20"
+                aria-label="Email"
+              >
+                <Mail className="w-6 h-6 text-cream-200 group-hover:text-white transition-colors" />
+              </a>
             </div>
             <p className="font-inter text-cream-300/80 text-xs mt-4 italic">
               Tag us with #DropNanie
+            </p>
+            <p className="font-inter text-cream-300 text-sm mt-2">
+              Email:{" "}
+              <a
+                href="mailto:info@dropnanie.co.za"
+                className="hover:text-street-blue-400 transition-colors"
+              >
+                info@dropnanie.co.za
+              </a>
             </p>
           </div>
         </div>
