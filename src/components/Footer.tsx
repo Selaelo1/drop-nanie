@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
             </h4>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://www.instagram.com/drop_nanie"
                 className="w-12 h-12 bg-street-brown-700 hover:bg-street-blue-500 rounded-full flex items-center justify-center transition-all duration-300 group shadow-lg hover:shadow-street-blue-500/20"
                 aria-label="Instagram"
               >
@@ -43,7 +43,7 @@ const Footer: React.FC = () => {
                 <Twitter className="w-6 h-6 text-cream-200 group-hover:text-white transition-colors" />
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/share/16jZjwrD3u/?mibextid=wwXIfr"
                 className="w-12 h-12 bg-street-brown-700 hover:bg-street-blue-500 rounded-full flex items-center justify-center transition-all duration-300 group shadow-lg hover:shadow-street-blue-500/20"
                 aria-label="Facebook"
               >
