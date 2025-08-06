@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
             </h4>
             <div className="flex space-x-4">
               <a
-                href="https://www.instagram.com/drop_nanie?igsh=MWxxdTVoMzdsaGl6Mw%3D%3D&utm_source=qr "
+                href="https://www.instagram.com/drop_nanie?igsh=MWxxdTVoMzdsaGl6Mw%3D%3D&utm_source=qr"
                 className="w-12 h-12 bg-street-brown-700 hover:bg-street-blue-500 rounded-full flex items-center justify-center transition-all duration-300 group shadow-lg hover:shadow-street-blue-500/20"
                 aria-label="Instagram"
               >
